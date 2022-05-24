@@ -10,7 +10,9 @@ export const get = async () => {
           title
           coverImage
           content
-          author
+          author {
+            name
+          }
           tags
           slug
           createdAt

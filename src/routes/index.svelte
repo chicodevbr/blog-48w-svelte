@@ -20,7 +20,7 @@
   <title>48 W | Blog</title>
 </svelte:head>
 
-{#each posts as { title, coverImage, slug }}
+{#each posts.reverse() as { title, coverImage, slug }}
   <div class="card lg:card-side bg-base-100 shadow-xl m-24">
     <figure>
       <img
@@ -33,7 +33,9 @@
       <h2 class="card-title">{title}</h2>
       <p>Some descriptions here</p>
       <div class="card-actions justify-end">
-        <button class="btn btn-secondary">Read More</button>
+        <a href={`/posts/${slug}`} class="btn btn-secondary"
+          >Read &rArr;</a
+        >
       </div>
     </div>
   </div>

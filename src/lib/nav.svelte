@@ -20,14 +20,16 @@
         tabindex="0"
         class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-300 rounded-box w-52"
       >
-        <li><a>Homepage</a></li>
+        <li><a href="/">Home</a></li>
         <li><a>Portfolio</a></li>
         <li><a>About</a></li>
       </ul>
     </div>
   </div>
   <div class="navbar-center">
-    <a class="btn btn-ghost normal-case text-3xl">Meridiano 48 W</a>
+    <a class="btn btn-ghost normal-case text-3xl"
+      ><p>meridiano <span class="text-secondary">48 W</span></p></a
+    >
   </div>
   <div class="navbar-end">
     <button class="btn btn-ghost btn-circle">

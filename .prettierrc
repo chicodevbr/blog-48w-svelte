@@ -1,7 +1,7 @@
 {
-	"singleQuote": true,
-	"trailingComma": "es5",
-	"printWidth": 70,
-	"arrowParens": "avoid",
-	"proseWrap": "always"
-  }
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "printWidth": 70,
+  "arrowParens": "avoid",
+  "proseWrap": "always"
+}
