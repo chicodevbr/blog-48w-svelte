@@ -21,10 +21,10 @@
 </svelte:head>
 
 {#each posts.reverse() as { title, coverImage, slug }}
-  <div class="card lg:card-side bg-base-100 shadow-xl m-24">
+  <div class="card lg:card-side bg-base-100 shadow-xl m-2 md:m-24">
     <figure>
       <img
-        class="rounded-xl h-96"
+        class="rounded-xl h-96 xl:object-cover w-96 xl:h-full"
         src={coverImage}
         alt={`Cover image for ${title}`}
       />
